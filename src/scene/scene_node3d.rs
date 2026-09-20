@@ -3219,7 +3219,6 @@ fn node_global_matrix(node: &Rc<RefCell<SceneNodeData3d>>) -> Mat4 {
 #[cfg(test)]
 mod tests {
     use super::SceneNode3d;
-    use glamx::{Pose3, Quat, Vec3};
 
     #[test]
     fn names_are_shared_between_node_handles() {
